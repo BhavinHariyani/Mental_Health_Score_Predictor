@@ -1,0 +1,16 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: mental-health-ui:v1
+    ports:
+      - "5174:5174"
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: mental-health-server:v1
+    ports:
+      - "8000:8000"

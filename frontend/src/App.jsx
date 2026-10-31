@@ -6,8 +6,9 @@ import StudentForm from "./components/StudentForm.jsx";
 import WellbeingResult from "./components/WellbeingResult.jsx";
 import "./App.css";
 
-const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
+const API_BASE_URL = (
+  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000"
+).replace(/\/+$/, "");
 
 const initialForm = {
   age: "21",

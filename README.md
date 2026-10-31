@@ -4,6 +4,14 @@ A full-stack student wellbeing project. Enter details about daily social media
 use, study, activity, sleep, and stress to receive a model-generated mental
 health score estimate.
 
+**Live website:** [mental-health-ui-v1.onrender.com](https://mental-health-ui-v1.onrender.com/)
+
+## Screenshots
+
+![Mental health score predictor landing view](image/image1.png)
+
+![Mental health score predictor form and wellbeing result](image/image2.png)
+
 The project contains a FastAPI backend and a React frontend. The frontend
 validates and submits the form to the backend, then displays the returned score
 on a visual meter alongside general, habit-based wellbeing suggestions.
